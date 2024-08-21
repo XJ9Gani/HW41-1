@@ -1,0 +1,38 @@
+.showAll, .addTodo, .deleteTodo, .updateTodo, .getTodoById {
+  background-color: #1a1a1a;
+  border-radius: 50px;
+  width: 200px;
+  height: 20px;
+  border: none;
+  font-size: 15px;
+  color: white;
+}
+
+.outputResult {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.block {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-family: system-ui;
+  background-color: #1a1a1a;
+  width: 400px;
+  height: 100px;
+}
+.block__title {
+  margin: 0;
+  height: 100%;
+  width: 30%;
+  background-color: rgb(73, 134, 73);
+}
+.block__desc {
+  margin: 0;
+  height: 100%;
+  width: 50%;
+}/*# sourceMappingURL=style.css.map */
